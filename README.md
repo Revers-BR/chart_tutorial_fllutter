@@ -1,3 +1,5 @@
 # chart_tutorial
 
-A new Flutter project.
+## Aplicação flutter para android baseado no tutorial:
+
+https://dev.to/redhunter7/series/14190
