@@ -1,5 +1,6 @@
 import 'package:chart_tutorial/chart/bar_chart.dart';
 import 'package:chart_tutorial/chart/line_chart.dart';
+import 'package:chart_tutorial/chart/pie_chart.dart';
 import 'package:chart_tutorial/chart_container.dart';
 import 'package:flutter/material.dart';
 
@@ -53,6 +54,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 title: 'Bar Chart',
                 color: Color.fromRGBO(45, 108, 223, 1),
                 chart: BarChartContent(),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(bottom: 10),
+              child: ChartContainer(
+                title: 'Pie Chart',
+                color: Color.fromRGBO(45, 108, 223, 1),
+                chart: PieChartContent(),
               ),
             ),
           ],
